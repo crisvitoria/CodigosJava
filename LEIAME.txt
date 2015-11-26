@@ -1,0 +1,18 @@
+Descrição:  
+1 - Crie uma hierarquia de classes de domínio para uma loja que venda livros, CDs e 
+DVDs. Sobrescreva o método toString() para que imprima: 
+• Para livros: nome, preço e autor; 
+• Para CDs: nome, preço e número de faixas; 
+• Para DVDs: nome, preço e duração. 
+Evite ao máximo repetição de código utilizando a palavra super no construtor e no 
+método sobrescrito. Em seguida, crie uma classe Loja com o método main() que adicione
+ 5 produtos diferentes (a sua escolha) a um ArrayList e, por fim, imprima o conteúdo 
+ do vetor.
+OBS: toString() é um método da classe Object e é responsável por retornar uma String
+ de descrição da classe. Lembrem-se toda classe é filha de Object.
+2 - Modifique o código do programa anterior, da seguinte forma:
+Adicione um atributo que represente o código de barras do produto (é um valor
+ obrigatório e, portanto, deve ser pedido no construtor);
+Na classe Loja, implemente um simples procedimento de busca que, dado um produto
+ e um vetor de produtos, indique em que posição do vetor se encontra o produto 
+ especificado ou imprima que o mesmo não foi encontrado;
